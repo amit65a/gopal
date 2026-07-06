@@ -599,12 +599,12 @@ const studentTimelineData = [
     year: { ne: "२०५४ – ०५६", en: "1997–099" },
     events: [
       {
-        ne: "२०५४ : केन्द्रिय सदस्य।",
-        en: "Central Committee Member in 1997.",
+        ne: "२०५४ : केन्द्रिय सदस्य (राप्ती इन्चार्ज)।",
+        en: "Central Committee Member (Rapti Incharge) in 1997.",
       },
       {
-        ne: "२०५६ : केन्द्रिय उपाध्यक्ष।",
-        en: "Central Vice-President in 1999.",
+        ne: "२०५६ : केन्द्रिय उपाध्यक्ष (पश्चिम उपकेन्द्र इन्चार्ज)।",
+        en: "Central Vice-President (West Sub-Centre Incharge) in 1999.",
       },
     ],
   },
@@ -632,10 +632,6 @@ const partyTimelineData = [
         ne: "२०५४ : विशेष कमिटी सेक्रेटरी।",
         en: "Special Committee Secretary.",
       },
-      {
-        ne: "जिल्ला इन्चार्जको जिम्मेवारी वहन।",
-        en: "District In-charge responsibility.",
-      },
     ],
   },
   {
@@ -645,23 +641,7 @@ const partyTimelineData = [
       {
         ne: "२०५५ : रुकुम (D-2) जिल्ला कमिटी सदस्य, ११ नं एरिया इन्चार्ज। ",
         en: "Rukum (D2) District Committee Member, 11th Area In-charge.",
-      },
-      {
-        ne: "०६२ माघ : आधार इलाका ब्युरो सदस्य रुकुम (D-2) को जिल्ला कमिटी सेक्रेटरी (DCS)",
-        en: "Base Area Bureau Member of Rukum (D2) District Committee Secretary (DCS)",
-      },
-      {
-        ne: "०६४ - ०६५ : रुकुम जिल्ला इन्चार्ज",
-        en: "Rukum District In-charge",
-      },
-      {
-        ne: "०६५ - ०६९ : मगराँत राज्य कार्यालय सचिव",
-        en: "Magrant State Office Secretary",
-      },
-      {
-        ne: "०७१ - ०७७ : रुकुम जिल्ला अध्यक्ष्य/संयोजक",
-        en: "Rukum District President/Coordinator",
-      },
+      }
     ],
   },
   {
@@ -687,15 +667,31 @@ const partyTimelineData = [
         ne: "२०६० - ६२ : भेरी कर्णाली क्षेत्रीय ब्यूरो अन्तर्गत बाँके + बर्दिया जिल्ला (D-5) इन्चार्ज। ",
         en: "Incharge of Banke + Bardia Districts under Bheri-Karnali Regional Bureau.",
       },
+      {
+        ne: "०६२ माघ : आधार इलाका ब्युरो सदस्य रुकुम (D-2) को जिल्ला कमिटी सेक्रेटरी (DCS)",
+        en: "Base Area Bureau Member of Rukum (D2) District Committee Secretary (DCS)",
+      },
+      {
+        ne: "०६४ - ०६५ : रुकुम जिल्ला इन्चार्ज",
+        en: "Rukum District In-charge",
+      },
+      {
+        ne: "०६५ - ०६९ : मगराँत राज्य कार्यालय सचिव",
+        en: "Magrant State Office Secretary",
+      },
+      {
+        ne: "०७१ - ०७७ : रुकुम जिल्ला अध्यक्ष्य/संयोजक",
+        en: "Rukum District President/Coordinator",
+      },
     ],
   },
   {
     tag: { ne: "केन्द्रीय कमिटी", en: "Central Committee" },
-    year: { ne: "२०६९ – हाल", en: "2012–Present" },
+    year: { ne: "२०६९ – हाल सम्म", en: "2012–Present" },
     events: [
       { ne: "०६९ : केन्द्रिय सदस्य", en: "Central Committee Member" },
       { ne: "०७३ : पोलिटब्यूरो सदस्य", en: "Politburo Member" },
-      { ne: "हाल : केन्द्रिय सदस्य", en: "Politburo Member" },
+      { ne: "०७४ - हाल सम्म: केन्द्रिय सदस्य", en: "Politburo Member" },
     ],
   },
 ];
@@ -722,7 +718,7 @@ const publicRoleTimelineData = [
   },
   {
     tag: { ne: "वर्तमान", en: "Present" },
-    year: { ne: "२०८२ फाल्गुन २१ - हाल", en: "2026 Ashad 21 - Present" },
+    year: { ne: "२०८२ फाल्गुन २१ - हाल सम्म", en: "2026 Ashad 21 - Present" },
     highlight: true,
     events: [
       {
@@ -823,7 +819,7 @@ const translations = {
     ne: "पार्टी संगठन तथा राजकीय भूमिका",
     en: "Party Organization & State Role",
   },
-  journey_party_years: { ne: "२०५२ — हाल", en: "1995 — Present" },
+  journey_party_years: { ne: "२०५२ — हाल सम्म", en: "1995 — Present" },
   tl_party_tag_1: { ne: "पार्टी प्रवेश", en: "Party Entry" },
   tl_party_year_1: { ne: "२०५२", en: "1995" },
   tl_party_desc_1: {
@@ -907,5 +903,5 @@ const translations = {
     ne: "सार्वजनिक जिम्मेवारी",
     en: "Public Responsibility",
   },
-  journey_public_years: { ne: "२०७४ - हाल", en: "2017 - Present" },
+  journey_public_years: { ne: "२०७४ - हाल सम्म", en: "2017 - Present" },
 };
